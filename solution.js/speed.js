@@ -1,10 +1,10 @@
 // Function for calculating points using car speed
-function calculateDemeritPoints(speed) {
+function calculateCoveredPoint(speed) {
   // speed max and covered point threshold
   const speedLimit = 70;
   const kmPerCoveredPoint = 5;
   
-  // Checking the  car's speed is below the speed max
+  // Checking if the car's speed is below the speed max
   if (speed < speedLimit) {
     console.log("Ok"); // If yes, print "Ok"
   } else {
@@ -20,5 +20,5 @@ function calculateDemeritPoints(speed) {
   }
 }
 
-// Example usage: Call the function with the car's speed as an argument
-calculateCoveredPoint(80); // Example: Points: 2
+// Call the function with the car's speed as an argument
+calculateCoveredPoint(80); // Points: 2
