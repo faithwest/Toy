@@ -5,7 +5,7 @@ function calculateCoveredPoint(speed) {
   const kmPerCoveredPoint = 5;
   
   // Checking if the car's speed is below the speed max
-  if (speed < speedLimit) {
+  if (speed <= speedLimit) {
     console.log("Ok"); // If yes, print "Ok"
   } else {
     // Calculate point based on excess speed
