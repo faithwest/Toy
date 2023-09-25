@@ -1,6 +1,6 @@
 //function to calculate grades based on students' marks
 function calculateGrade(marks) {
-    if (marks > 79) return 'A'; //grade 79 and above, gives A
+    if (marks > 80) return 'A'; //grade 80 and above, gives A
     if (marks >= 60) return 'B'; //grade 60 and above, gives B
     if (marks >= 50) return 'C'; //grade 50 and above, gives C
     if (marks >= 40) return 'D'; //grade 40 and above, gives D
